@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integer To Binary</title>
+  </head>
+  <body>
+    <div>BY SIMON AND STU</div>
+    <div>Original number is <span class="original_num"></span></div>
+    
+    <div id='result'>
+      In binary (Base 2), the number <span class='original_num'></span> is: <span id='num'></span>
+    </div>
+      
+    <div>
+      
+      </span>
+    </div>
+  </body>
+  <script>
+    const integer = 5
+    const original = document.getElementsByClassName('original_num')
+    console.log(typeof original)
+    console.log(original)
+    Array.from(original).forEach(element => {
+      element.innerHTML = integer
+    });
+    // original[1].innerHTML = integer
+    // original[0].innerHTML = integer
+    if (integer > 0 && typeof integer === 'number' && Number.isInteger(integer)) {
+      const el = document.getElementById('num')
+       el.innerHTML = integer.toString(2)  
+      const num = 3.14;
+    } else {
+      const result = document.getElementById('result')
+      result.innerHTML = 'Please provide a postive integer.'
+      result.style.color = 'red'
+      result.style.fontStyle = 'italic'
+    }
+
+    
+
+    
+  </script>
+</html>

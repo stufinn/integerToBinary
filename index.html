@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integer To Binary</title>
+  </head>
+  <body>
+    <div>BY SIMON AND STU</div>
+    <div>Original number: <span id="num"></span></div>
+    <div>
+      Binary is:
+      <span id="result"></span>
+    </div>
+  </body>
+  <script>
+    const integer = 25;
+    const original_num = document.getElementById('num');
+    original_num.innerHTML = integer;
+
+    const result_num = document.getElementById('result');
+    result_num.innerHTML = integer.toString(2);
+  </script>
+</html>

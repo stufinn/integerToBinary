@@ -1,9 +1,3 @@
-// const integer = 25;
-// const original_num = document.getElementById('num');
-// original_num.innerHTML = integer;
-
-// const result_num = document.getElementById('result');
-// result_num.innerHTML = integer.toString(2);
 const input = '42';
 const isInteger = Number.isInteger(parseInt(input));
 console.log(isInteger); // true
@@ -19,7 +13,7 @@ function convertToBinary() {
     const resultContainer = document.getElementById('result');
     resultContainer.innerHTML = result;
   } else {
-    alert('Enter an integer please.');
+    alert('Enter an integer please!');
   }
 
   return;

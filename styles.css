@@ -24,3 +24,8 @@ body {
 .hasBorder {
   border: 1px solid greenyellow;
 }
+
+.converter {
+  height: 50px;
+  font-size: 30px;
+}

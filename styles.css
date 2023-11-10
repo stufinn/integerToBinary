@@ -10,7 +10,9 @@ body {
 }
 
 #container {
+  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%; /* added this line */
@@ -28,4 +30,12 @@ body {
 .converter {
   height: 50px;
   font-size: 30px;
+}
+
+#fartButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 70px;
+  opacity: 0;
 }

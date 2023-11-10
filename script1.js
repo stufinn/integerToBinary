@@ -24,3 +24,8 @@ function convertToBinary() {
 
   return;
 }
+
+const fart = () => {
+  const fartSound = new Audio('../media/fart.wav');
+  fartSound.play();
+};
